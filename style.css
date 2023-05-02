@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.en-tete{
+    background-color: #fff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px;
+}
+
+.search .input{
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+.search-box{
+    width: 150%;
+    /* margin: 30px; */
+}
+
+.search .search-box{
+    width: 500px;
+    height: 60px;
+}
+
+.search .search-box .input{
+    width: 440px;
+    height: 45.5px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px solid #d5d1d0;
+    border-right: none;
+}
+
+/* .search .search-box {
+    position: absolute;
+    top: 0;
+    width: 42px;
+    height: 42px;
+    background: #000;
+    z-index: 2;
+    cursor: pointer;
+   
+}
+
+.search .search-box .fa-magnifying-glass{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+} */
+
+.search-box i{
+    background-color: #000;
+    color: #fff;
+    padding: 3% 3%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+button{
+    padding: 10px;
+    width: 100px;
+    background: #a18530;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.connecte{
+    color:#000;
+}
+
+.connecte a{
+    text-decoration: none;
+}
+
+.categorie{
+    height: 300%;
+    background: #ded0d0;
+}
+.categorie h1{
+    text-align: center;
+    color: #7d6a6a;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 18px;
+}
+
+
+.container h2{
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container ul{
+    margin-top: 2%;
+}
+
+.container li{
+    list-style: none;
+    color: rgb(91, 102, 102);
+    margin-left: 3%;
+}
+
+.parcour{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.parcour p{
+    margin-left: 3%;
+    color: #a18530;
+}
+
+span{
+    margin-right: 3%;
+    padding: 2px;
+    color: #8b7d77;
+    background-color: rgb(199, 218, 218);
+    border-radius: 30%;
+}
+
+.aliment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28%;
+    margin-bottom: 2%;
+}
+
+.aliment p{
+    margin-left: 3%;
+    color: #a18530;
+}
+
+.aliment span{
+    margin-right: 3%;
+    padding: 2px;
+    color: #8b7d77;
+    background-color: rgb(199, 218, 218);
+    border-radius: 30%;
+}
+.news{
+    height: 100%;
+}
+.bleu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 128, 228);
+    height: 120px;
+}
+.row{
+    margin-right: 7%;
+}
+.row h3{
+    font-size: 25px;
+    color: #fff;
+}
+
+.row p{
+    color: #fff;
+}
+
+
+.mail .input{
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+.mail-box{
+    margin-top: 5%;
+    width: 150%;
+    display: flex;
+    /* margin: 30px; */
+}
+
+.mail .mail-box{
+    width: 600px;
+    height: 60px;
+}
+
+.mail .mail-box .input{
+    width: 440px;
+    height: 45.5px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid #d5d1d0;
+    border-right: none;
+}
+
+.abonne button{
+    margin-left: 5%;
+    padding: 12.2px;
+    width: 190px;
+    font-size: 18px;
+    font-family: arial;
+    background: #3a1c75;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+} 
+
+.trois{
+    background-color: #220f49;
+    height: 300px;
+}
+
+.dernier{
+    display: flex;
+    justify-content: space-around;
+    width: 99%;
+    padding: 0% 0% 0% 6%;
+}
+
+.un{
+    margin-top: 3%;
+}
+
+.un p{
+    color: white;
+    margin: 20px 0px 0px 0px ;
+    
+}
+.un img{
+   width: 150px;
+   margin-left: 27%;
+   margin-top: 4%;
+}
+
+.un h3{
+    margin-top: -1.5%;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+.suivi h3{
+    margin-top: 12%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.inter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inter h3{
+    margin-top: 5%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 15%;
+}
+
+.rom{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.rom p{
+    color: #fff;
+}
+
+.vehicule,
+.emploi,
+.immo,
+.media,
+.maison,
+.mode,
+.sport,
+.service,
+.demande,
+.outils,
+.alimentaire,
+.animaux{
+    height: 30vh;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.vehicule i,
+.emploi i,
+.immo i,
+.media i,
+.maison i,
+.mode i,
+.sport i,
+.service i,
+.demande i,
+.outils i,
+.alimentaire i,
+.animaux i{
+    position: relative;
+    left: 40%;
+    bottom: 5%;
+    color: #fff;
+    background-color: orange;
+    padding: 5%;
+    border-radius: 50%;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.icon .fa-facebook{
+    background-color: rgb(97, 97, 188);
+    padding: 5%;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.icon .fa-twitter{
+    background-color: rgb(135, 135, 225);
+    padding: 5%;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.icon .fa-instagram{
+    background-color: rgb(72, 72, 155);
+    padding: 5%;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.icon .fa-linkedin{
+    background-color: rgb(96, 96, 159);
+    padding: 5%;
+    color: #fff;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:767px) {
+    .en-tete{
+        flex-wrap: wrap;
+        margin-bottom: 20%;
+        width: 100%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .bleu{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .mail .mail-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mail .mail-box input{
+        width: 25%;
+        height: 25%;
+        margin-left: 20%;
+    }
+    
+    .abonne button{
+        width: 30%;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+    .vehicule,
+    .emploi,
+    .immo,
+    .media,
+    .maison,
+    .mode,
+    .sport,
+    .service,
+    .demande,
+    .outils,
+    .alimentaire,
+    .animaux{
+        height: 25vh;
+        width: 70%;
+    }
+
+    .logo img{
+        width: 50%;
+        align-items: center;
+    }
+
+    .search .search-box .input{
+        width: 200px;
+        margin-left: 18%;
+    }
+
+    button{
+        margin-right: 50%;
+    }
+
+    .connecte{
+        margin-right: 35%;
+    }
+
+    .dernier{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .trois{
+        height: 150%;
+    }
+    .trois .dernier {
+        text-align: center;
+    }
+
+    .inter .h3{
+        margin-left: 10%;
+    }
+
+    .un{
+        margin-right: 10%;
+    }
+
+    .rom p{
+        margin-left: 64px;
+    }
+}
